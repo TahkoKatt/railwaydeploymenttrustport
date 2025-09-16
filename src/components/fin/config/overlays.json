@@ -1,0 +1,31 @@
+{
+  "dashboard": {
+    "cfo": {
+      "kpi_priority": ["cash_flow", "revenue", "profit_margin", "burn_rate"],
+      "default_filters": {
+        "time_period": "month",
+        "view": "executive"
+      },
+      "hidden_sections": [],
+      "primary_actions": ["generate_report", "forecast_analysis"]
+    },
+    "controller": {
+      "kpi_priority": ["accounts_payable", "accounts_receivable", "reconciliation", "compliance"],
+      "default_filters": {
+        "time_period": "day",
+        "view": "operational"
+      },
+      "hidden_sections": [],
+      "primary_actions": ["reconcile_accounts", "process_invoices"]
+    },
+    "analyst": {
+      "kpi_priority": ["variance_analysis", "budget_tracking", "cost_analysis", "roi"],
+      "default_filters": {
+        "time_period": "quarter",
+        "view": "analytical"
+      },
+      "hidden_sections": [],
+      "primary_actions": ["create_analysis", "update_forecast"]
+    }
+  }
+}

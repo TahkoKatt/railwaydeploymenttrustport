@@ -1,0 +1,30 @@
+{
+  "canonical_slugs": [
+    "dashboard",
+    "ar",
+    "ap",
+    "billing",
+    "cash",
+    "recon",
+    "tax",
+    "analytics"
+  ],
+  "component_map": {
+    "dashboard": "FinDashboard",
+    "ar": "FinAR",
+    "ap": "FinAP",
+    "billing": "FinBilling",
+    "cash": "FinCash",
+    "recon": "FinRecon",
+    "tax": "FinTax",
+    "analytics": "FinAnalytics"
+  },
+  "redirects": {
+    "home": "dashboard",
+    "accounts-receivable": "ar",
+    "accounts-payable": "ap",
+    "invoicing": "billing",
+    "reconciliation": "recon",
+    "taxes": "tax"
+  }
+}

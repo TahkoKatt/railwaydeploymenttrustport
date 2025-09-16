@@ -10,5 +10,8 @@
     "restartPolicyMaxRetries": 10,
     "healthcheckPath": "/",
     "healthcheckTimeout": 100
+  },
+  "service": {
+    "type": "web"
   }
 }

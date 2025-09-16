@@ -59,6 +59,8 @@ export const activitiesList = base44.functions.activitiesList;
 
 export const activitiesCreate = base44.functions.activitiesCreate;
 
+export const activitiesUpdate = base44.functions.activitiesUpdate;
+
 export const activitiesUpdateStatus = base44.functions.activitiesUpdateStatus;
 
 export const rfqIntakeParse = base44.functions.rfqIntakeParse;
